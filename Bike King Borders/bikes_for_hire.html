@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bike King Borders</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="content-wrapper">
+  <header id="header"> 
+  <div id="logo">
+        <img src="img/logo-removebg-preview.png" alt="">
+  </div>
+  <div class="hamburger-menu">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+    <nav class="menu">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="best_sellers.html">Best Sellers</a></li>
+        <li><a href="mountain_bikes.html">Mountain Bikes</a></li>
+        <li><a href="kids_bikes.html">Kids Bikes</a></li>
+        <li><a href="bikes_for_hire.html">Bikes for Hire</a></li>
+        <li><a href="servicing.html">Servicing</a></li>
+        <li><a href="bike_trails.html">Bike Trails</a>
+          <ul class="sub-menu">
+            <li><a href="beginners.html">Beginners</a></li>
+            <li><a href="intermediate.html">Intermediate</a></li>
+            <li><a href="extreme.html">Extreme</a></li>
+          </ul>          
+        </li>
+      </ul>      
+    </nav>
+    <div class="contact-wrapper-">
+      <div class="social-media">
+        <a href="your-facebook-link"><img src="img/InsignificonSW128-Facebook-i.png" alt="Facebook"></a>
+        <a href="your-instagram-link"><img src="img/InsignificonSW128-Instagram.png" alt="Instagram"></a>
+        <a href="your-twitter-link"><img src="img/InsignificonSW128-Twitter.png" alt="Twitter"></a>
+      </div>
+      <div class="contact-info">
+        <div class="adress">
+          <p>Unit 25 Gretna Gateway Outlet</p> 
+          <p>Village DG16 Gretna Green</p>
+        </div>
+        <div class="tel">01310987654</div>
+        <div class="email">info@bikekingborders.co.uk</div>
+      </div>
+    </div>
+   
+  </header>
+  </div>
+
+  <section id="bikes-for-hire">
+    <h2>Bikes for Hire</h2>
+    <p>Rent a bike and explore the beautiful trails in the Borders.</p>
+    <div class="rentals-container">
+      <section class="booking-form">
+        <h3>Let's find your ideal bike</h3>
+        <form id="rentalForm">
+            <div class="mb-3">
+                <label for="rentalType" class="form-label">Select</label>
+                <select id="rentalType" class="form-select">
+                    <option selected>Daily hire</option>
+                    <option>Weekly hire</option>
+                    <option>Hourly hire</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <label for="startDate" class="form-label">Start Date*</label>
+                <input type="date" id="startDate" class="form-control">
+            </div>
+            <div class="mb-3">
+                <label for="startTime" class="form-label">Start Time*</label>
+                <input type="time" id="startTime" class="form-control">
+            </div>
+            <div class="mb-3">
+                <label for="endDate" class="form-label">End Date*</label>
+                <input type="date" id="endDate" class="form-control">
+            </div>
+            <div class="mb-3">
+                <label for="endTime" class="form-label">End Time*</label>
+                <input type="time" id="endTime" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+        <div class="terms-and-conditions">
+          <h3>Rental Terms</h3>
+          <p>1. By renting a bike, the renter agrees to all terms provided by Bike King Borders.</p>
+          <p>2. Rental starts and ends as per booking times. Late returns incur extra fees.</p>
+          <p>3. Payment is due at rental start per agreed rates. A refundable security deposit is required.</p>
+          <p>4. Bikes are for normal riding only. Renter will follow all traffic regulations.</p>
+          <p>5. Bikes must be returned clean and undamaged. Repair costs for damage will be charged.</p>
+          <p>6. The renter assumes all risks of bike use. Bike King Borders is not liable for injuries/damages.</p>
+          <p>7. Renters must wear helmets and safety gear (available for an additional fee).</p>
+          <p>Renter's acceptance of these terms is confirmed upon bike rental from Bike King Borders.</p>
+      </div>
+      </section> 
+      <section class="rental-info">
+      <div class="bike-display">
+        <img src="img/cannondale-scalpel-si-hi-mod-690x389.png" alt="">
+        <h3>Our Bikes</h3>
+        <p>Bring the family for a great day out cycling. Our bikes come in a range of colours and styles. Check the BOOK NOW button to view all shapes and sizes.</p>
+      </div>
+      <div class="pricing-info">
+        <h3>Hourly rates:</h3>
+        <p>£3.00 up to a maximum of £15</p>
+        <h3>Daily rates:</h3>
+        <p>1 day: £15</p>
+        <p>2 days: £30</p>
+        <p>3 days: £40</p>
+        <h3>Weekly rates:</h3>
+        <p>1 week: £50</p>
+        <p>2 weeks: £70</p>
+        <p>3 weeks: £90</p>
+        <p>Additional weeks: £20</p>
+      </div>
+      </section>
+    </div>
+  </section>
+  <footer>
+    <p>&copy; 2024 Bike King Borders</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
